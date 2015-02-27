@@ -7,8 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="container">
+  <div id="header">
+    <div id="navigation">
+      <ul> 
+        <a href="/"> <li class="buttons"> Home </li> </a>
+        <a href="/recipe"> <li class="buttons"> Add Recipe </li> </a>
+        <a href="/contact"> <li class="buttons"> Contact </li> </a>
+      </ul>
+     </div>
+
+   </div>
+
 
 <%= yield %>
 
+</div>
 </body>
 </html>
