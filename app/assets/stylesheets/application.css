@@ -11,18 +11,19 @@
  *= require_self
  *= require_tree .
  */
+ 
 #header {
   width: 980px;
   height: 330px;
   text-align: center;
-  background-color: tomato;
+  background-color: #CC95FF;
 
 }
 
 #header_image {
   height: 298px;
   width: 980px;
-  background-color: tomato;
+  background-color: #CC95FF;
 
 }
 
@@ -38,7 +39,7 @@
   width: 196px;
   height: 30px;
   float: left;
-  background-color: lightgrey;
+  background-color: #FFA2F4;
   border-radius: 10px;
 }
 
@@ -53,13 +54,14 @@ ul {
   height: 1080px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #7F697C;
   border: 1px solid black; 
 }
 
 #preview_outline {
   height: 252px;
   width: 980px;
-  background-color: brown;
+  background-color: #FFD3F7;
   margin-top: 10px;
 }
   
@@ -73,7 +75,7 @@ ul {
 #title {
   height: 30px;
   width: 713px;
-  background-color: grey;
+  background-color: #FFD3F7;
   float: left;
   padding-left: 15px;
 }
@@ -83,5 +85,16 @@ ul {
   height: 210px;
   float: left;
   padding-left: 15px;
+  background-color: #CCA9C6;
 
+}
+
+.donation_text {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#mail_text {
+  text-decoration: none;
+  color: red;
 }

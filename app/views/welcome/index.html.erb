@@ -1,10 +1,15 @@
- <div id="preview_outline">
+ <% Recipe.all.each do |recipe| %>
+
+ <div id="preview_outline"> <a href="recipes/<%= recipe.id %>">
   
   <div id="picture"> <p> picture goes here </p> </div>
 
-  <div id="title">  TITLE </div>
+  <div id="title"> <%= recipe.title %> </div>
       
-  <div id="description"> <p> description</p> </div>
+  <div id="description"> <p> <%=recipe.description%> </p> </div>
   
+ </a>
 
  </div>
+
+ <%end%>
