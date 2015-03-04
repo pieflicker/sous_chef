@@ -98,3 +98,14 @@ ul {
   text-decoration: none;
   color: red;
 }
+
+#text_pages {
+  height: 300px;
+  width: 90%;
+  background-color: #FFD3F7;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
