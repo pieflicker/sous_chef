@@ -1,2 +1,16 @@
 <h1>Recipes#show</h1>
 <p>Find me in app/views/recipes/show.html.erb</p>
+
+<div id="recipe_container">
+  <div id="recipe_image">  </div>
+  <div id="recipe_title"> <%= @recipe.title %> </div>
+  <div id="recipe_description"> <%= @recipe.description %> </div>
+  <div id="contents"> <%= @recipe.ingredients %> </br> 
+    <%= @recipe.instructions %>
+
+  </div>
+
+
+
+
+</div>

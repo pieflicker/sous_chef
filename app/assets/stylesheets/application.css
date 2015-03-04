@@ -49,6 +49,7 @@ ul {
     margin: 0px;
 }
 
+
 #container {
   width: 980px;
   height: 1080px;
@@ -60,32 +61,39 @@ ul {
 
 #preview_outline {
   height: 252px;
-  width: 980px;
+  width: 95%;
   background-color: #FFD3F7;
   margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
 }
   
 #picture{
   height: 250px;
   width: 250px;
   border: 1px solid black;
+  border-radius:15px 0px 0px 15px;
   float: left;
+  background-color: #7F697C;
 } 
     
 #title {
   height: 30px;
-  width: 713px;
+  width: 664px;
   background-color: #FFD3F7;
   float: left;
   padding-left: 15px;
+  border-radius: 15px;
 }
       
 #description {
-  width: 713px;
-  height: 210px;
+  width: 664px;
+  height: 222px;
   float: left;
   padding-left: 15px;
   background-color: #CCA9C6;
+  border-radius: 0px 0px 15px 0px;
 
 }
 
@@ -101,7 +109,7 @@ ul {
 
 #text_pages {
   height: 300px;
-  width: 90%;
+  width: 95%;
   background-color: #FFD3F7;
   border-radius: 15px;
   padding-top: 20px;
