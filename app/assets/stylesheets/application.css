@@ -52,11 +52,12 @@ ul {
 
 #container {
   width: 980px;
-  height: 1080px;
+  min-height: 1080px;
   margin-right: auto;
   margin-left: auto;
   background-color: #7F697C;
   border: 1px solid black; 
+  padding-bottom: 10px;
 }
 
 #preview_outline {
@@ -100,6 +101,7 @@ ul {
 .donation_text {
   text-align: center;
   margin-top: 25px;
+  font-size: 150%;
 }
 
 #mail_text {
@@ -116,4 +118,73 @@ ul {
   margin-top: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+#recipe_container {
+  width: 95%;
+  min-height: 900px;
+  background-color: #FFD3F7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+
+#recipe_image {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius:15px;
+  float: left;
+  background-color: #7F697C;
+}
+
+#recipe_title {
+  height: 30px;
+  width: 654px;
+  background-color: #FFD3F7;
+  float: left;
+  padding-left: 25px;
+  border-radius: 0px 15px 0px 0px;
+
+}
+
+#recipe_description {
+  width: 664px;
+  height: 222px;
+  float: left;
+  padding-left: 15px;
+  background-color: #FFD3F7;
+  border-radius: 0px 0px 15px 0px;
+}
+
+#ingredients {
+  width: 100%;
+  float: left;
+  padding-top: 35px;
+  background-color: #FFD3F7;
+  border-radius: 0px 0px 0px 0px;
+}
+
+#instructions {
+  width: 100%;
+  float: left;
+  padding-top: 25px;
+  background-color: #FFD3F7;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#form_outline {
+  width: 95%;
+  min-height: 900px;
+  background-color: #FFD3F7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 15px;
 }
