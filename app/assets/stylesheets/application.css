@@ -142,7 +142,7 @@ ul {
   background-color: #7F697C;
 }
 
-#recipe_title {
+#recipe_preview_title {
   height: 30px;
   width: 654px;
   background-color: #FFD3F7;
@@ -152,7 +152,7 @@ ul {
 
 }
 
-#recipe_description {
+#recipe_preview_description {
   width: 664px;
   height: 222px;
   float: left;
@@ -177,7 +177,7 @@ ul {
   border-radius: 0px 0px 15px 15px;
 }
 
-#form_outline {
+#submission_outline {
   width: 95%;
   min-height: 900px;
   background-color: #FFD3F7;
@@ -187,4 +187,49 @@ ul {
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 15px;
+}
+
+.field {
+  width: 700px;
+  float: left;
+}
+
+#title_submission_div {
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#recipe_title {
+  width: 700px;
+}
+
+#recipe_description {
+  height: 100px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#recipe_ingredients {
+  width: 700px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#recipe_instructions {
+  width: 700px;
+  height: 300px;
+}
+
+.actions {
+  float: left;
+}
+
+#centering_submission_form {
+  width: 76%;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }

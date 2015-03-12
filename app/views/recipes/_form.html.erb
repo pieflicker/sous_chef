@@ -1,31 +1,34 @@
-<div id="form_outline"> 
-
-<%= form_for(@recipe) do |f| %>
-
-  <div class="field">
-    <%= f.label :title %></br>
-    <%= f.text_field :title %>
-  </div>
-
-  <div class="field">
-    <%= f.label :description %></br>
-    <%= f.text_area :description %>
-  </div>
+<div id="submission_outline"> 
   
-  <div class="field">
-    <%= f.label :ingredients %></br>
-    <%= f.text_area :ingredients %>
-  </div>
-  
-  <div class="field">
-    <%= f.label :instructions %> </br >
-    <%= f.text_area :instructions %> </br>
-  </div>
+  <h1>Submit something tasty</h1>
 
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <div id="centering_submission_form">
+    <%= form_for(@recipe) do |f| %>
 
+      <div class="field" id="title_submission_div">
+        <%= f.label :title %></br>
+        <%= f.text_field :title %>
+      </div>
+
+      <div class="field" id="description_submission_div">
+        <%= f.label :description %></br>
+        <%= f.text_area :description %>
+      </div>
+      
+      <div class="field">
+        <%= f.label :ingredients %></br>
+        <%= f.text_area :ingredients %>
+      </div>
+      
+      <div class="field">
+        <%= f.label :instructions %> </br >
+        <%= f.text_area :instructions %> </br>
+      </div>
+
+      <div class="actions">
+        <%= f.submit %>
+      </div>
+
+    <% end %>
+  </div>
 </div>
-
-<% end %>
