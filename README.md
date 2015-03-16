@@ -5,10 +5,15 @@ Scoped down head_chef, which hopefully means I will be able and motivated to
 get it to a live version. Ideally very quickly. Must.Stop.Feature.Creep!
 
 first
-1 - recipes, listing and add
+1 - recipes, listing and add <-- All functionally complete. Now adding some graphics (icons, header).
+	Category tagging is the main new feature being implemented now (before adding photos, as 
+	that means needing HDD space) .
 
 soon
-2 - Tagging, searching, groups, adding photos
+2 - Tagging by ingredient, searching, groups, 
+
+
+3 - adding photos
 
 maybe, we'll see.
-3 - ratings difficulty tags, search by ingredient
+4 -  ratings difficulty tags, search by ingredient
