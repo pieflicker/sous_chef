@@ -25,16 +25,16 @@
         <%= f.text_area :instructions %> </br>
       </div>
 
-      <%= radio_button_tag(:category, "main_dish") %>
-      <%= label_tag(:category_main_dish, "Main Dish") %>
-      <%= radio_button_tag(:category, "appetizer") %>
-      <%= label_tag(:category_appetizer, "Appetizer") %>
-      <%= radio_button_tag(:category, "soup") %>
-      <%= label_tag(:category_soup, "Soup") %>
-      <%= radio_button_tag(:category, "salad") %>
-      <%= label_tag(:category_salad, "Salad") %>
-      <%= radio_button_tag(:category, "desert") %>
-      <%= label_tag(:category_desert, "Desert") %>
+      <%= radio_button("recipe", "category", "main_dish") %>
+      <%= label(:category, "main_dish") %>
+      <%= radio_button("recipe", "category", "appetizer") %>
+      <%= label(:category, "Appetizer") %>
+      <%= radio_button("recipe", "category", "soup") %>
+      <%= label(:category, "Soup") %>
+      <%= radio_button("recipe", "category", "salad") %>
+      <%= label(:category, "Salad") %>
+      <%= radio_button("recipe", "category", "desert") %>
+      <%= label(:category, "Desert") %>
 
 
       <div class="actions">
