@@ -32,23 +32,36 @@
   height: 32px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+
 }
 
 .buttons {
   width: 196px;
   height: 30px;
+  padding-top: 0px;
   float: left;
   background-color: #FFA2F4;
   border-radius: 10px;
+  text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+  }
 
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
-
 
 #container {
   width: 980px;
