@@ -194,7 +194,7 @@ ul {
 
 #submission_outline {
   width: 95%;
-  min-height: 900px;
+  min-height: 1200px;
   background-color: #FFD3F7;
   margin-left: auto;
   margin-right: auto;
@@ -207,6 +207,7 @@ ul {
 .field {
   width: 700px;
   float: left;
+  margin-top: 15px;
 }
 
 #title_submission_div {
@@ -217,6 +218,11 @@ ul {
 
 #recipe_title {
   width: 700px;
+}
+
+#recipe_image_upload: {
+  width: 700px;
+  height: 15px;
 }
 
 #recipe_description {

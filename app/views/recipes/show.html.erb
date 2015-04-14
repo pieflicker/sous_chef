@@ -1,11 +1,16 @@
 
 <div id="recipe_container">
-  <div id="recipe_image"> <%= image_tag "main_dish.png" %> </div>
+
+  <div id="recipe_image"> <a href="<%= @recipe.recipeimage_url %>"> <%= image_tag @recipe.recipeimage_url(:thumb).to_s %> </a> </div>
+
   <div id="recipe_preview_title"> <%= @recipe.title %> </div>
+
   <div id="recipe_preview_description"> <%= @recipe.description %> </div>
+
   <div id="ingredients"> 
     <h2> Ingredients </h2>
     <%= @recipe.ingredients %> </div>
+
   <div id="instructions"> 
     <h2> Instructions </h2>
     <%= @recipe.instructions %> </div>

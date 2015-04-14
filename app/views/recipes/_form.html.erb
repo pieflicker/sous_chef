@@ -3,12 +3,17 @@
   <h1>Submit something tasty</h1>
 
   <div id="centering_submission_form">
-    <%= form_for(@recipe) do |f| %>
+
+    <%= form_for @recipe, :html => {:mutipart => true} do |f| %>
 
       <div class="field" id="title_submission_div">
         <%= f.label :title %></br>
         <%= f.text_field :title %>
       </div>
+
+      <div class="field" id="recipe_image_upload"> 
+      <%= f.file_field :recipeimage %>
+    </div>
 
       <div class="field" id="description_submission_div">
         <%= f.label :description %></br>
@@ -35,7 +40,6 @@
       <%= label(:category, "Salad") %>
       <%= radio_button("recipe", "category", "desert") %>
       <%= label(:category, "Dessert") %>
-
 
       <div class="actions">
         <%= f.submit %>
