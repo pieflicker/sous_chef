@@ -92,6 +92,14 @@ ul {
   float: left;
   background-color: #7F697C;
 } 
+ 
+ /*img#picture {
+  position:absolute;
+    top: 0;
+    left: 0;
+    z-index:0;
+}
+*/
     
 #title {
   height: 30px;
@@ -157,13 +165,7 @@ ul {
   background-color: #7F697C;
 }
 
-/* img#recipe_image {
-  position:absolute;
-    top: 0;
-    left: 0;
-    z-index:1;
-}
-*/
+
 
 #recipe_preview_title {
   height: 30px;
@@ -269,6 +271,6 @@ ul {
   position:absolute;
     top:0;
     left:0;
-    z-index:0;
+    z-index:1;
 }
 */

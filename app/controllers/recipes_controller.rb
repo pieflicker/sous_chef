@@ -14,7 +14,7 @@ class RecipesController < ApplicationController
   def create
     @recipe = Recipe.new(recipe_params)
       if @recipe.save
-        redirect_to recipes_url, :notice => "Deliciousness added, thank you!"
+        redirect_to "/recipes/#{@recipe.id}"
       else
         render "new"
       end
@@ -26,6 +26,6 @@ class RecipesController < ApplicationController
 private
 
   def recipe_params
-    params.require(:recipe).permit(:title, :ingredients, :description, :instructions, :category, :recipeimage, :recipethumb)
+    params.require(:recipe).permit(:title, :ingredients, :description, :instructions, :category, :recipeimage,)
   end
 end
