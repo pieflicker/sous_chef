@@ -2,7 +2,12 @@
 
  <div id="preview_outline"> <a href="recipes/<%= recipe.id %>">
   
-  <div id="picture">  <%= image_tag recipe.recipeimage_url(:thumb).to_s %> </div>
+  <div id="picture" >  
+  
+    <%= image_tag recipe.recipeimage_url(:thumb).to_s %> 
+    <%#= <img id="category" <%= image_tag "#{recipe.category}.png"%>
+
+  </div>
 
   <div id="title"> <%= recipe.title %> </div>
       

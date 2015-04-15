@@ -88,6 +88,7 @@ ul {
   width: 250px;
   border: 1px solid black;
   border-radius:15px 0px 0px 15px;
+  overflow: hidden;
   float: left;
   background-color: #7F697C;
 } 
@@ -151,9 +152,18 @@ ul {
   width: 250px;
   border: 1px solid black;
   border-radius:15px;
+  overflow:hidden;
   float: left;
   background-color: #7F697C;
 }
+
+/* img#recipe_image {
+  position:absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+}
+*/
 
 #recipe_preview_title {
   height: 30px;
@@ -254,3 +264,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*#category {
+  position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+*/
